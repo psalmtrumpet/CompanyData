@@ -2,22 +2,16 @@ import React from 'react';
 import * as ReactBoostrap from 'react-bootstrap';
 
 
-const DataPreview = ({comapnys, ticker, stockPrice,timeElapsed}) =>{
-    console.log(comapnys)
+const DataPreview = ({company, ticker, stockPrice,timeElapsed}) =>{
+    console.log(company)
 return <div>
     
-<ReactBoostrap.Table striped bordered hover size="sm">
-  <thead>
-    <tr>
-      <th>Company</th>
-      <th>Ticker</th>
-      <th>Stock Price</th>
-      <th>Time Elapsed</th>
-    </tr>
-  </thead>
+<ReactBoostrap.Table responsive="md">
+  
   <tbody>
     <tr>
-      <td>{comapnys}</td>
+      <td>{company}</td>
+      
       <td>{ticker}</td>
       <td>{stockPrice}</td>
       <td>{timeElapsed}</td>

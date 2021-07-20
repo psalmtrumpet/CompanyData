@@ -11,7 +11,7 @@ const COMPANY_DATA=[
     id: 2,
     company: "Square Inc",
     ticker: "SQ",
-    stockPrice: "45.28 USD",
+    stockPrice: "452.28 USD",
     timeElapsed: "10 sec ago",
   },
   {
